@@ -21,3 +21,11 @@ lists the block counts of every player. Warning; if the block limit is high on t
     /run Server():broadcastChatMessage("Server", ChatMessageType.Warning, "Replace this with your warning")
 
 
+### Add the debug script to your ship 
+`Warning other players can also interact with this, until your ship is destroyed or the script removed! see the entry directly below to remove.`
+
+    /run Entity():addScript("lib/entitydbg.lua")
+
+### remove the debug script from your ship 
+
+    /run Entity():removeScript("lib/entitydbg.lua")
