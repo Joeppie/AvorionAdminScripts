@@ -8,8 +8,6 @@ same as above, but as an error.
 lists the block counts of every player. Warning; if the block limit is high on the server and many people are online, this command can become expensive.
 
 
-
-
 ## Oneliners that can be used in the /run tab.
 
 ### Modify standing with the current faction after running a /destroy command.
@@ -22,7 +20,9 @@ lists the block counts of every player. Warning; if the block limit is high on t
 
 
 ### Add the debug script to your ship 
-`Warning other players can also interact with this, until your ship is destroyed or the script removed! see the entry directly below to remove.`
+`Warning other players can also interact with this, until your ship is destroyed or the script removed! see the entry directly below to remove.` 
+
+I recommend only running this command on your drone, so that it's automatically destroyed when you re-enter your ship. Remember; a drone can be set to be invulnerable using the entitydbg.lua, so you should be safe.
 
     /run Entity():addScript("lib/entitydbg.lua")
 
