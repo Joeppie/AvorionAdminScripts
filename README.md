@@ -29,3 +29,6 @@ I recommend only running this command on your drone, so that it's automatically 
 ### remove the debug script from your ship 
 
     /run Entity():removeScript("lib/entitydbg.lua")
+
+### Move the selected entity (targeted in game by the craft you control) to a specific sector (100,200 in the example)
+    /run Galaxy():transferEntity(Entity().selectedObject, 100, 200 , 1)
