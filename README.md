@@ -36,4 +36,6 @@ I recommend only running this command on your drone, so that it's automatically 
 ### delete the selected entity, even if it is invulnerable (does not count as damage, but'warps' the selected entity into oblivion)
     /run Sector():deleteEntityJumped(Entity().selectedObject)
 
+### imrpove the (nearest faction) standing for the owning faction of the selected object by the selected value.
+    /run Galaxy():changeFactionRelations(Faction(Entity().selectedObject.factionIndex), Galaxy():getNearestFaction(Sector():getCoordinates()), 200000)
 
