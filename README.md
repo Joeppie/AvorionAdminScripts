@@ -32,3 +32,8 @@ I recommend only running this command on your drone, so that it's automatically 
 
 ### Move the selected entity (targeted in game by the craft you control) to a specific sector (100,200 in the example)
     /run Galaxy():transferEntity(Entity().selectedObject, 100, 200 , 1)
+
+### delete the selected entity, even if it is invulnerable (does not count as damage, but'warps' the selected entity into oblivion)
+    /run Sector():deleteEntityJumped(Entity().selectedObject)
+
+
