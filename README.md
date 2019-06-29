@@ -1,3 +1,8 @@
+# license
+
+These scripts are offered to the public in the hopes that they are useful. Please consider them as being licensed under GNU affero GPL; this means that you are free to use them, but if you modify them, you must distribute the *modified work* when you publish them;
+Specifically, the GNU Affero license sees 'servers' and 'services' using the source code as  *publishing*, so if you modify the code and run it on your server, please share it back or distribute it, so that others may likewise benefit from it as you are benefiting from this code. If there are licensing or other concerns, please let the author know. I would be happy to accept merge requests/issues etc. as well on the source branch on Github @ https://github.com/Joeppie/AvorionAdminScripts/
+
 # Commands:
 
 ## warn.lua
